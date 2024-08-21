@@ -1,0 +1,194 @@
+
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #dd0e0a;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2.titulo span{
+    color: #dd0e0a;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #dd0e0a;
+    transform: scale(1.05);
+}
+
+.jogos-box{
+    color: #fff;
+    padding: 30px 29px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    text-align: center;
+}
+
+.jogos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff65;
+}
+
+.jogos-box h3{
+    font-size: 25px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILO LINE 1 DOS JOGOS */
+
+section.jogos{
+    padding: 0px 4%;
+}
+
+section.jogos .flex{
+    gap: 60px;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    margin-top: 95px;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #dd0e0a;
+}
+
+footer .line-footer p i{
+    color: #dd0e0a;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #dd0e0a;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+@media screen and (max-width: 1318px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    /* CABEÇALHO */
+
+    .btn-contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE JOGOS 1 */
+
+    section.jogos .flex {
+        gap: 40px;
+    }
+
+    section.jogos {
+        padding: 20px 13%;
+    }
+
+    .jogos h2.titulo {
+        font-size: 29px;
+    }
+
+    .jogos-box {
+        margin-top: 25px;
+        border: #ffffffa2 solid 0.5px;
+    }
+    
+    .jogos-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #ffffff65;
+    }
+
+    /* RODAPÉ */
+
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}

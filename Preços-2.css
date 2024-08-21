@@ -1,0 +1,368 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #dd0e0a;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2.titulo span {
+    color: #dd0e0a;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #dd0e0a;
+    transform: scale(1.05);
+}
+
+header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILO DOS CARDS 1*/
+
+header section.preços1 {
+    padding: 40px 4%;
+}
+
+section.preços1 .flex {
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.preços1 .card i {
+    font-size: 50px;
+    color: #dd0e0a;
+    padding: 0px 55px;
+}
+
+.card {
+    color: #fff;
+    width: 200px;
+    height: 280px;
+    border-radius: 15px;
+    margin-top: 45px;
+    transition: .2s;
+    text-align: center;
+    background-color: #161515;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #dd0e0a;
+}
+
+.card .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card .btn-agendar button {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #dd0e0a;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO DOS CARDS 2*/
+
+header section.preços2 {
+    padding: 40px 4%;
+}
+
+section.preços2 .flex {
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.preços2 .card i {
+    font-size: 50px;
+    color: #dd0e0a;
+    padding: 0px 55px;
+}
+
+.card {
+    color: #fff;
+    width: 200px;
+    height: 280px;
+    border-radius: 15px;
+    transition: .2s;
+    text-align: center;
+    background-color: #161515;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #dd0e0a;
+}
+
+.card .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card .btn-agendar button {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #dd0e0a;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO DOS CARDS 3*/
+
+header section.preços3 {
+    padding: 40px 4%;
+}
+
+section.preços3 .flex {
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.preços3 .card i {
+    font-size: 50px;
+    color: #dd0e0a;
+    padding: 0px 55px;
+}
+
+.card {
+    color: #fff;
+    width: 200px;
+    height: 280px;
+    border-radius: 15px;
+    transition: .2s;
+    text-align: center;
+    background-color: #161515;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #dd0e0a;
+}
+
+.card .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card .btn-agendar button {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #dd0e0a;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    margin-top: 95px;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #dd0e0a;
+}
+
+footer .line-footer p i {
+    color: #dd0e0a;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #dd0e0a;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+@media screen and (max-width: 780px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    /* CABEÇALHO */
+
+    .btn-contato button {
+        padding: 11px 26px;
+        font-size: 15px;
+    }
+
+    /* TOPO DO SITE PREÇOS 1 */
+
+    section.preços1 .flex {
+        gap: 40px;
+    }
+
+    section.preços1 {
+        padding: 20px 8%;
+    }
+
+    .preços1 h2.titulo {
+        font-size: 29px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-top: 8px;
+    }
+
+    /* TOPO DO SITE PREÇOS 2 */
+
+    section.preços2 .flex {
+        gap: 40px;
+    }
+
+    section.preços2 {
+        padding: 20px 8%;
+    }
+
+    .preços2 h2.titulo {
+        font-size: 29px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-top: 8px;
+    }
+
+    /* TOPO DO SITE PREÇOS 3 */
+
+    section.preços3 .flex {
+        gap: 40px;
+    }
+
+    section.preços3 {
+        padding: 20px 8%;
+    }
+
+    .preços3 h2.titulo {
+        font-size: 29px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-top: 8px;
+    }
+
+    /* RODAPÉ */
+
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
